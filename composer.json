@@ -17,7 +17,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Leantony\\Flash\\": "src/"
+      "Leantony\\Flash\\": "src/",
+      "Leantony\\Flash\\Providers\\": "src/providers"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "leantony/laravel_flash",
-  "description": "Flash notifier based on laracasts/flash that uses toast js",
+  "description": "Flash notifier based on Jeffery Way's laracasts/flash that uses toast js",
   "license": "MIT",
   "authors": [
     {

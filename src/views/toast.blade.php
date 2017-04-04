@@ -16,9 +16,9 @@
             var suppressNotification = notif.data('suppress');
 
             // message will always be json encoded
-            message = tenLord.utils.processMessageObject($.parseJSON(message));
+            message = leantony.utils.processMessageObject($.parseJSON(message));
 
-            tenLord.notify({text: message, type: type});
+            leantony.notify({text: message, type: type});
         }
     </script>
 @endif

@@ -16,7 +16,7 @@ class ServiceProvider extends FlashServiceProvider
         parent::boot();
 
         $this->publishes([
-            __DIR__ . '/../views' => base_path('resources/views/vendor/flash')
+            __DIR__ . '/../views' => base_path('resources/views/vendor/leantony/flash')
         ]);
     }
 }

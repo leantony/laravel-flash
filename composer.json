@@ -1,16 +1,28 @@
 {
-  "name": "leantony/laravel_flash",
+  "name": "leantony/laravel-flash",
   "description": "Flash notifier based on Jeffery Way's laracasts/flash that uses toast js",
   "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "leantony",
+    "flash",
+    "laravel-flash",
+    "laravel",
+    "toastr",
+    "laravel-5",
+    "laravel5"
+  ],
   "authors": [
     {
-      "name": "leantony",
-      "email": "chachaantony@gmail.com"
+      "name": "Antony [leantony] Chacha",
+      "email": "chachaantony@gmail.com",
+      "role": "Developer"
     }
   ],
+  "homepage": "https://github.com/leantony/laravel-flash",
   "require": {
     "illuminate/support": "~5.1",
-    "laracasts/flash": "^2.0"
+    "laracasts/flash": "^3.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~5.0"
@@ -19,6 +31,13 @@
     "psr-4": {
       "Leantony\\Flash\\": "src/",
       "Leantony\\Flash\\Providers\\": "src/providers"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Leantony\\Flash\\Providers\\ServiceProvider"
+      ]
     }
   }
 }
